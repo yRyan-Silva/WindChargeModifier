@@ -1,5 +1,5 @@
-Simple wind charge plugin that changes speed and power with particles when using wind charge.
-Minecraft Version: 1.21
+Simple wind charge plugin that changes speed and power with particles when using wind charge. <br>
+Server Version: Spigot 1.21
 
 Just configure the plugin via 'config.yml' and use it according to your preference.
 
