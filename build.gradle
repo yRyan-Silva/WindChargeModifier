@@ -1,0 +1,27 @@
+plugins {
+    id 'io.freefair.lombok' version '8.6'
+    id 'java'
+}
+
+group = 'me.ryan.windchargemodifier'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT'
+    implementation 'org.jetbrains:annotations:24.1.0'
+}
+
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(21))
+}
+
+jar {
+    from sourceSets.main.output
+    archiveFileName = 'WindChargeModifier.jar'
+}

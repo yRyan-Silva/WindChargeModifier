@@ -1,0 +1,9 @@
+name: WindChargeModifier
+version: 1.0-SNAPSHOT
+author: ylupan
+main: me.ryan.windchargemodifier.WindChargeModifier
+api-version: 1.21
+commands:
+  windchargemodifier:
+    aliases:
+      - wcm

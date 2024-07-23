@@ -1,0 +1,14 @@
+Wind Charge:
+  Everyone: true # Caso esteja 'true' irá funcionar com qualquer wind charge, caso esteja 'false' só irá funcionar para o wind charge givado pelo comando (/wcm give (player) (amount))
+  Power Multiply: 2.0 # Multiplica a explosão do wind charge pelo valor configurado aqui
+  Speed Multiply: 2.0 # Multiplica a velocidade do wind charge pelo valor configurado aqui
+  Particles:
+    Activated: true
+    Type: 'FLAME' # https://minecraft.fandom.com/wiki/Particles#Types_of_particles
+    Amount: 50
+  Item Stack:
+    Name: '&c&lWIND CHARGE CARREGADO'
+    Glow: true
+    Lore:
+      - '&7Este wind charge é mais forte'
+      - '&7que um wind charge normal.'
